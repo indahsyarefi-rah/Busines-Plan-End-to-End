@@ -34,6 +34,15 @@ RADAR PELUANG - PANDUAN WINDOWS
    Jika muncul Cannot find module, periksa bahwa terminal berada di folder
    yang berisi scripts dan dist.
 
+   Jika muncul jendela "Windows cannot find" tetapi terminal menampilkan
+   "Radar Peluang siap digunakan", server tetap berjalan. Klik OK pada
+   pesan Windows, lalu buka alamat di atas lewat Chrome atau Edge.
+   Jangan jalankan server lagi selama server yang pertama masih berjalan.
+
+   Untuk membuka browser sendiri tanpa pembukaan otomatis, gunakan:
+
+      node .\scripts\serve-local.mjs --no-open
+
    PILIHAN B - LEWAT LAUNCHER
    Buka folder hasil ekstrak, lalu klik dua kali MULAI-RADAR.cmd.
    Bila Node.js belum terdeteksi, tutup terminal lalu jalankan kembali
