@@ -1,0 +1,102 @@
+RADAR PELUANG - PANDUAN WINDOWS
+
+1. PASANG NODE.JS SEKALI
+   Buka https://nodejs.org/ dan unduh installer Windows versi LTS.
+   Jalankan installer dengan pilihan standar. Anda tidak perlu memasang
+   "Tools for Native Modules" atau paket build tambahan untuk aplikasi ini.
+
+2. EKSTRAK ZIP
+   Klik kanan radar-peluang-windows.zip > Extract All / Ekstrak Semua.
+   Pilih folder yang mudah ditemukan, misalnya Documents/Radar-Peluang.
+   Folder dist dan scripts harus tetap bersama MULAI-RADAR.cmd.
+
+3. MULAI APLIKASI
+
+   PILIHAN A - LEWAT VS CODE
+   Gunakan cara ini bila klik dua kali launcher diblokir Smart App Control.
+   Smart App Control boleh tetap aktif.
+
+   a. Buka VS Code, pilih File > Open Folder.
+   b. Pilih folder hasil ekstrak yang berisi folder scripts dan dist.
+   c. Pilih Terminal > New Terminal (PowerShell).
+   d. Salin baris berikut ke terminal, lalu tekan Enter:
+
+      node .\scripts\serve-local.mjs
+
+   e. Browser akan dibuka otomatis. Bila tidak, buka:
+      http://127.0.0.1:5173
+
+   Biarkan VS Code dan terminal tetap terbuka selama aplikasi dipakai.
+   Jalankan perintah satu kali saja. Jangan menyalin tulisan PS C:\...>;
+   tulisan tersebut hanya penanda lokasi terminal, bukan bagian perintah.
+   Jika node tidak dikenali, tutup seluruh VS Code, lalu buka kembali
+   setelah instalasi Node.js selesai.
+   Jika muncul Cannot find module, periksa bahwa terminal berada di folder
+   yang berisi scripts dan dist.
+
+   PILIHAN B - LEWAT LAUNCHER
+   Buka folder hasil ekstrak, lalu klik dua kali MULAI-RADAR.cmd.
+   Bila Node.js belum terdeteksi, tutup terminal lalu jalankan kembali
+   setelah instalasi Node selesai. Tidak perlu menjalankan sebagai administrator.
+
+4. COBA RISET MANUAL
+   Pilih Riset baru, isi topik, lalu pilih Mulai riset.
+   Pilih Tambah masalah untuk mencatat temuan.
+   Buka masalah, pilih tab Bukti, lalu tambah kutipan dan tautan sumber.
+   Catat alternatif solusi, ide, dan tindakan validasi sesuai hasil riset Anda.
+   Gunakan Ekspor untuk mengunduh Excel atau PDF.
+   Pilih proyek demo jika ingin mempelajari antarmuka dengan data ilustrasi.
+
+5. MENGHENTIKAN APLIKASI
+   Klik terminal yang MASIH menjalankan Radar Peluang, lalu tekan Ctrl+C.
+   Setelah muncul kembali tulisan PS C:\...>, server di terminal itu
+   sudah berhenti. Browser dan VS Code boleh ditutup.
+
+   Tulisan ^C saat menekan Ctrl+C adalah normal, bukan pesan kesalahan.
+   Jika PS C:\...> sudah muncul sebelum Anda menekan Ctrl+C, tidak ada
+   aplikasi yang sedang berjalan di terminal tersebut. Server mungkin
+   berjalan di terminal atau jendela lain.
+
+   Untuk memakai lagi, buka folder yang sama dan jalankan:
+
+      node .\scripts\serve-local.mjs
+
+   Data browser tetap tersimpan ketika server dihentikan. Gunakan browser,
+   profil, dan alamat yang sama saat membuka kembali. Tetap ekspor rutin.
+
+6. JIKA PORT 5173 MASIH DIPAKAI
+   Coba buka http://127.0.0.1:5173 terlebih dahulu. Jika Radar Peluang
+   muncul, Anda dapat langsung menggunakannya; tidak perlu memulai server baru.
+
+   Untuk menghentikan Radar Peluang yang masih berjalan di jendela lain,
+   salin SELURUH tiga baris berikut ke terminal PowerShell, lalu tekan Enter:
+
+      Get-CimInstance Win32_Process -Filter "Name = 'node.exe'" |
+        Where-Object { $_.CommandLine -like '*serve-local.mjs*' } |
+        ForEach-Object { Stop-Process -Id $_.ProcessId }
+
+   Jika terminal menampilkan >>, lanjutkan menempelkan semua baris sampai
+   lengkap, lalu tekan Enter. Perintah harus berakhir dengan tanda }.
+   Perintah menargetkan proses Node yang menjalankan serve-local.mjs.
+   Biasanya tidak ada pesan setelah selesai. Ini tidak menghapus data proyek.
+   Jika tidak ada proses yang cocok, perintah tidak menghentikan aplikasi lain.
+
+   Jika port tetap dipakai, mungkin port tersebut digunakan aplikasi lain.
+   Jangan menghentikan proses yang belum dikenali. Catat pesan yang muncul
+   untuk diperiksa sebelum menjalankan Radar Peluang kembali.
+
+PENTING TENTANG DATA
+- Gunakan browser dan profil yang sama, serta alamat 127.0.0.1:5173 yang sama.
+- Gunakan jendela biasa. Mode Incognito/InPrivate dapat menghapus data ketika ditutup.
+- Data tersimpan pada penyimpanan browser, bukan di folder ZIP, bukan di akun cloud.
+- Menghapus data situs/browser dapat menghapus semua proyek. Ekspor rutin.
+- Laporan Excel/PDF adalah dokumen keluaran; belum dapat diimpor sebagai pemulihan otomatis.
+- Paket laptop hanya menjalankan riset manual; pencarian otomatis dan analisis AI tidak aktif.
+- Setelah Node.js terpasang dan paket diekstrak, aplikasi tidak membutuhkan unduhan
+  npm, akun hosting, kartu pembayaran, atau koneksi internet untuk dibuka.
+  Internet tetap diperlukan saat Anda ingin membuka tautan sumber di web.
+- Paket hanya menerima koneksi dari laptop ini, bukan perangkat lain di jaringan.
+- Port 5173 harus kosong. Jika sedang dipakai, tutup Radar Peluang yang sebelumnya.
+
+Paket ini dibuat dari build aplikasi di workspace. Launcher .cmd disiapkan
+untuk Windows; pengujian Windows langsung belum tersedia di lingkungan Linux ini.
