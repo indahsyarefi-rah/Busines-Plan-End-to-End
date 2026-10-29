@@ -1,7 +1,7 @@
 const __vite__mapDeps = (
   i,
   m = __vite__mapDeps,
-  d = m.f || (m.f = ["assets/cb325debf6ca/plan-report.js", "assets/cb325debf6ca/report.js"]),
+  d = m.f || (m.f = ["assets/d3f17adcdbec/plan-report.js", "assets/d3f17adcdbec/report.js"]),
 ) => i.map((i) => d[i]);
 (function () {
   const i = document.createElement("link").relList;
@@ -22052,21 +22052,36 @@ function Ex({ cloud: n }) {
       o.jsxs("aside", {
         className: `sidebar ${L ? "is-open" : ""}`,
         children: [
-          o.jsx("a", {
+          o.jsxs("a", {
             href: "#",
             className: "brand",
             "aria-label": "VENTU — End-to-End Business Plan, buka proyek",
             onClick: (_) => {
               (_.preventDefault(), De("projects"));
             },
-            children: o.jsx("img", {
-              className: "brand-logo",
-              src: "./brand/ventu-logo-aef73d312f26.png",
-              alt: "VENTU — End-to-End Business Plan",
-              width: 1678,
-              height: 937,
-              decoding: "async",
-            }),
+            children: [
+              o.jsx("img", {
+                className: "brand-logo",
+                src: "./brand/ventu-mark-15f2095fced5.png",
+                alt: "",
+                width: 42,
+                height: 42,
+                decoding: "async",
+              }),
+              o.jsxs("span", {
+                className: "brand-copy",
+                children: [
+                  o.jsx("span", {
+                    className: "brand-name",
+                    children: "VENTU",
+                  }),
+                  o.jsx("span", {
+                    className: "brand-tagline",
+                    children: "END-TO-END BUSINESS PLAN",
+                  }),
+                ],
+              }),
+            ],
           }),
           o.jsxs("div", {
             className: "workspace-label",
