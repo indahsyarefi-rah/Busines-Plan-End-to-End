@@ -10,10 +10,10 @@ const build = resolve("dist");
 const temp = await mkdtemp(join(tmpdir(), "radar-pages-"));
 const checkout = join(temp, "site");
 try {
-  git("fetch", "origin", "gh-pages");
+  git("fetch", "origin", "gh-pages:refs/remotes/origin/gh-pages");
   git("worktree", "add", "--detach", checkout, "origin/gh-pages");
   // Keep unrelated tracked Pages files, replacing only the application's output.
-  for (const name of ["assets", "data", "index.html"])
+  for (const name of ["assets", "brand", "data", "index.html"])
     await rm(join(checkout, name), { recursive: true, force: true });
   await cp(build, checkout, { recursive: true });
   git("-C", checkout, "add", "--all");
