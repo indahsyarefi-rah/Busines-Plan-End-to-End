@@ -220,3 +220,19 @@ PENGAYAAN SESUAI ARAHAN PENELITIAN
   teks. Keduanya bukan jumlah konsumen atau bukti validasi pasar.
 - Coba peta, sandi, suara atau pengingat dengan Semua industri, daerah kosong,
   dan Semua periode. Catatan global tidak otomatis menjadi bukti Indonesia.
+
+VISUAL BUSINESS MODEL CANVAS
+- Buka Business Plan, lalu pilih tahap 8. Business Model Canvas.
+- Isi Nama tim, Nama usaha pada BMC, dan tagline bila diperlukan.
+- Isi sembilan blok. Kotak, judul, dan posisi mengikuti referensi pengguna.
+  Contoh RasaPanen tidak dimasukkan. Isi selalu dari input Anda.
+- Baris yang dimulai ## menjadi subjudul hijau, misalnya ## Mitra produksi.
+- Pratinjau memperbarui isi langsung. Pada layar kecil, geser gambar secara
+  horizontal; teks tetap bisa dibaca/sunting pada formulir di bawah.
+- Unduh BMC PDF visual atau Unduh BMC PNG untuk gambar 4124 x 2480 per halaman.
+  PDF visual berisi gambar, bukan teks vektor yang dapat dipilih. Laporan
+  business plan biasa tetap tersedia untuk ekspor teks dan data.
+- Jika isi terlalu panjang, ukuran huruf diturunkan sampai batas minimum lalu
+  seluruh isi dilanjutkan ke halaman berikutnya. Tidak dipotong diam-diam.
+  Pilih Halaman pratinjau BMC untuk meninjau lanjutan. PNG menghasilkan satu
+  file per halaman; browser bisa meminta izin beberapa unduhan.
