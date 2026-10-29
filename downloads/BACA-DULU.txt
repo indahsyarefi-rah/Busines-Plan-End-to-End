@@ -207,3 +207,16 @@ BATCH RISET PRIMER 29 OKTOBER 2026
   di dist/data/original-upload, sementara manual-csv berisi data gabungan terkini.
 - Untuk melihat tambahan, cari arsip atau digital dengan daerah kosong dan
   Semua periode. Kunjungi sumber untuk status terbaru; laporan dapat berubah.
+
+PENGAYAAN SESUAI ARAHAN PENELITIAN
+- Total terbaru 116 masalah dan 122 bukti. Sebanyak 105 catatan lama tetap utuh;
+  11 masalah dan 11 bukti baru berasal dari halaman laporan primer yang dibaca.
+- Sumber Indonesia/mesin pencari masih ditolak proxy environment penelitian.
+  Penelitian menyeluruh belum selesai; file checkpoint mencatat sisanya.
+- Paket enam CSV dan laporan berada di dist/data/enrichment/radar_peluang_pengayaan.zip.
+  Isinya juga menyertakan baseline, manifest sumber, dan checkpoint.
+- progres_kata.csv menghitung relasi topik yang ditinjau konservatif. Angkanya
+  dapat lebih rendah daripada keyword-coverage.csv yang dipakai untuk pencarian
+  teks. Keduanya bukan jumlah konsumen atau bukti validasi pasar.
+- Coba peta, sandi, suara atau pengingat dengan Semua industri, daerah kosong,
+  dan Semua periode. Catatan global tidak otomatis menjadi bukti Indonesia.
