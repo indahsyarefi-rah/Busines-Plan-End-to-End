@@ -49,7 +49,7 @@ RADAR PELUANG - PANDUAN WINDOWS
    setelah instalasi Node selesai. Tidak perlu menjalankan sebagai administrator.
 
 4. GUNAKAN DATABASE BAWAAN DAN BUAT LAPORAN
-   Paket ini sudah memuat database unggahan: 100 masalah, 106 bukti,
+   Paket ini sudah memuat database gabungan: 105 masalah, 111 bukti,
    130 baris klasifikasi, dan progres 69 industri (64 berisi masalah).
    File CSV asli dan database pencarian ikut berada di dist/data.
    Tidak perlu mengimpor file, membuat akun, atau membeli API.
@@ -57,7 +57,7 @@ RADAR PELUANG - PANDUAN WINDOWS
    a. Di halaman Proyek, pilih Cari database lokal atau Riset baru.
    b. Pastikan Sumber riset = Database lokal bawaan.
    c. Pilih sektor/industri atau ketik topik sederhana seperti bank atau BBM.
-      Kosongkan topik dan pilih Semua industri untuk melihat seluruh 100 masalah.
+      Kosongkan topik dan pilih Semua industri untuk melihat seluruh 105 masalah.
    d. Untuk percobaan pertama, gunakan Kelompok konsumen = Konsumen umum,
       daerah kosong, dan periode Semua periode.
    e. Klik Mulai riset. Hasil yang cocok disalin sebagai proyek baru.
@@ -182,7 +182,7 @@ INDEKS KATA DAN SUMBER
   Daftar kata adalah alat pencarian, bukan bukti adanya masalah bisnis.
 - BBM dikenali sebagai bahan bakar minyak. Digital dipetakan ke catatan
   aplikasi, perangkat lunak, layanan daring, dan konektivitas yang terkait.
-- Database masih 100 masalah dan 106 bukti, belum dua masalah untuk setiap kata.
+- Database kini 105 masalah dan 111 bukti, belum dua masalah untuk setiap kata.
 - File dist/data/keyword-coverage.csv berisi cakupan setiap kata, ID masalah,
   tautan sumber, metode pemetaan, serta kekurangan terhadap target dua.
 - keyword-words.txt menyimpan daftar asli; keyword-sources.json menyimpan
@@ -193,3 +193,17 @@ INDEKS KATA DAN SUMBER
 - Filter industri, daerah, konsumen, periode, dan pengecualian tetap berlaku.
   Untuk mencoba digital/BBM: Semua industri, daerah kosong, Konsumen umum,
   Semua periode. Muat ulang browser setelah memperbarui paket.
+
+BATCH RISET PRIMER 29 OKTOBER 2026
+- Total sekarang 105 masalah dan 111 bukti: 100 masalah unggahan awal ditambah
+  5 laporan primer pengguna VS Code. Halaman laporan dibaca dan kutipan pendek
+  dicocokkan ke teks sumber. Ini bukan pembuktian bug atau kelayakan bisnis.
+- Tema tambahan: kinerja aplikasi, arsip percakapan hilang, nama arsip tidak
+  tersimpan, kegagalan ekspor, dan warna indikator pada tema kontras tinggi.
+- Data baru bersifat laporan global; lokasi Indonesia tidak diketahui.
+  Aplikasi tidak menganggap laporan tersebut mewakili konsumen Indonesia.
+- Manifest URL, kutipan, tanggal, dan checksum sumber berada pada
+  dist/data/research-batch-2026-10-29.json. CSV awal tetap disimpan terpisah
+  di dist/data/original-upload, sementara manual-csv berisi data gabungan terkini.
+- Untuk melihat tambahan, cari arsip atau digital dengan daerah kosong dan
+  Semua periode. Kunjungi sumber untuk status terbaru; laporan dapat berubah.
