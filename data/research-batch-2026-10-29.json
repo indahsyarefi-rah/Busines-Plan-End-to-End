@@ -1,0 +1,57 @@
+[
+  {
+    "masalah_id": "M000101",
+    "bukti_id": "B000107",
+    "url": "https://github.com/microsoft/vscode/issues/344672",
+    "source_title": "My vscode is slow after new update",
+    "publication_date": "2026-10-28",
+    "checked_at": "2026-10-29",
+    "quote": "Even after updating all software on my computer and removing unused vscode extensions, the scrolling in files and clicking in UI has a delay (other apps do not)",
+    "body_sha256": "08f02917e9f7f3683fade5902398e45634d7226333b8c527012c56ac59fa4ebb",
+    "review": "Isi halaman dibaca; kecocokan kutipan diperiksa. Klaim belum direproduksi atau divalidasi secara independen."
+  },
+  {
+    "masalah_id": "M000102",
+    "bukti_id": "B000108",
+    "url": "https://github.com/microsoft/vscode/issues/344721",
+    "source_title": "Chat sessions keep disappearing",
+    "publication_date": "2026-10-28",
+    "checked_at": "2026-10-29",
+    "quote": "I find that I can be in an agent chat session and then it'll just hang and then I'll restart VS Code and it'll just disappear.",
+    "body_sha256": "563e081c07e59e4c652d762477d21858e7ff118c79d121577f9d857ce1257f13",
+    "review": "Isi halaman dibaca; kecocokan kutipan diperiksa. Klaim belum direproduksi atau divalidasi secara independen."
+  },
+  {
+    "masalah_id": "M000103",
+    "bukti_id": "B000109",
+    "url": "https://github.com/microsoft/vscode/issues/344809",
+    "source_title": "Renaming agent chats are not saved",
+    "publication_date": "2026-10-28",
+    "checked_at": "2026-10-29",
+    "quote": "Renaming an agent host chat session from the Chat Sessions list does not save the new name.",
+    "body_sha256": "d86e967a6a1006790dc38df450231f829a6173473b2ba52586c71ae3f0e9aa47",
+    "review": "Isi halaman dibaca; kecocokan kutipan diperiksa. Klaim belum direproduksi atau divalidasi secara independen."
+  },
+  {
+    "masalah_id": "M000104",
+    "bukti_id": "B000110",
+    "url": "https://github.com/microsoft/vscode/issues/344875",
+    "source_title": "File export issue",
+    "publication_date": "2026-10-28",
+    "checked_at": "2026-10-29",
+    "quote": "Files that have been attempted exported have been repeatadly rejected or never been possible to export.",
+    "body_sha256": "081e9f2642cae2ab98609a15a9b5f3928f86eeca9fa150c3ec31c087d2c8ecd4",
+    "review": "Isi halaman dibaca; kecocokan kutipan diperiksa. Klaim belum direproduksi atau divalidasi secara independen."
+  },
+  {
+    "masalah_id": "M000105",
+    "bukti_id": "B000111",
+    "url": "https://github.com/microsoft/vscode/issues/344880",
+    "source_title": "Copilot Chat's WIP mark turns focus-ring orange in Default High Contrast (Dark) Color Theme",
+    "publication_date": "2026-10-29",
+    "checked_at": "2026-10-29",
+    "quote": "It reads like a warning/error indicator and does not match the application icon in the title bar.",
+    "body_sha256": "22d673f8c52ce866946108cffc349e7ee58764273b79eb85b21ad22c536ec24f",
+    "review": "Isi halaman dibaca; kecocokan kutipan diperiksa. Klaim belum direproduksi atau divalidasi secara independen."
+  }
+]

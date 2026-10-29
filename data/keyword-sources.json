@@ -1,10 +1,10 @@
 {
   "wordCount": 14556,
   "indexedWords": 14558,
-  "atLeastTwo": 251,
-  "one": 310,
-  "zero": 13997,
+  "atLeastTwo": 272,
+  "one": 309,
+  "zero": 13977,
   "sourceUrl": "https://github.com/damzaky/kumpulan-kata-bahasa-indonesia-KBBI/blob/master/legacy/indonesian-words.txt",
   "sourceSha256": "05c11c308b583e954832f4481d4c36a03ae9d9a9e67dbd209827503011078e68",
-  "notes": "Daftar legacy dari repositori pengguna; README menyebut penyesuaian manual. Bukan bukti masalah atau salinan KBBI resmi yang diverifikasi. Pemetaan kata hanya alat temu kembali; sumber setiap masalah tetap dari CSV unggahan dan belum diperiksa ulang. Tidak ada masalah baru yang direkayasa untuk memenuhi target dua per kata."
+  "notes": "Daftar legacy dari repositori pengguna; README menyebut penyesuaian manual. Bukan bukti masalah atau salinan KBBI resmi yang diverifikasi. Pemetaan kata hanya alat temu kembali; sumber mengikuti CSV awal dan batch riset primer; status pemeriksaan dijelaskan pada bukti dan manifest masing-masing. Tidak ada masalah baru yang direkayasa untuk memenuhi target dua per kata."
 }
