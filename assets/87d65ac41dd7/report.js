@@ -3,10 +3,10 @@ const __vite__mapDeps = (
   m = __vite__mapDeps,
   d = m.f ||
     (m.f = [
-      "assets/d3f17adcdbec/exceljs.js",
-      "assets/d3f17adcdbec/app.js",
-      "assets/d3f17adcdbec/base.css",
-      "assets/d3f17adcdbec/jspdf.js",
+      "assets/87d65ac41dd7/exceljs.js",
+      "assets/87d65ac41dd7/app.js",
+      "assets/87d65ac41dd7/base.css",
+      "assets/87d65ac41dd7/jspdf.js",
     ]),
 ) => i.map((i) => d[i]);
 import { u as p, a as f, b as w, v, _ as g } from "./app.js";
