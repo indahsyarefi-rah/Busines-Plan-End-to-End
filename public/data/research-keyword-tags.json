@@ -1,0 +1,67 @@
+{
+  "M000106": [
+    "peta",
+    "rute",
+    "jalan",
+    "kendaraan",
+    "navigasi"
+  ],
+  "M000107": [
+    "peta",
+    "rute",
+    "jalan",
+    "navigasi"
+  ],
+  "M000108": [
+    "peta",
+    "unduh",
+    "navigasi"
+  ],
+  "M000109": [
+    "peta",
+    "arsip",
+    "berkas",
+    "penyimpanan"
+  ],
+  "M000110": [
+    "sandi",
+    "akses",
+    "autentikasi"
+  ],
+  "M000111": [
+    "sandi",
+    "salin",
+    "akses"
+  ],
+  "M000112": [
+    "tagihan",
+    "biaya",
+    "harga",
+    "langganan",
+    "pembayaran"
+  ],
+  "M000113": [
+    "belajar",
+    "pengingat",
+    "kartu",
+    "notifikasi"
+  ],
+  "M000114": [
+    "suara",
+    "pelafalan",
+    "bahasa",
+    "aksesibilitas"
+  ],
+  "M000115": [
+    "kalkulator",
+    "braille",
+    "suara",
+    "aksesibilitas"
+  ],
+  "M000116": [
+    "presentasi",
+    "judul",
+    "suara",
+    "aksesibilitas"
+  ]
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "masalah_id": "M000106",
+    "bukti_id": "B000112",
+    "url": "https://github.com/organicmaps/organicmaps/issues/14034",
+    "title": "[routing] Car route to Street Garden, Mtskheta snaps onto an isolated road",
+    "published_at": "2026-10-28T15:04:20Z",
+    "checked_at": "2026-10-29",
+    "quote": "An isolated nearby service road should not prevent considering other reachable destination candidates.",
+    "body_sha256": "ca0d49ecfb5429d9a741a179d0e915cb619d8f256294c2603abf4f57a773a233",
+    "state": "OPEN",
+    "tags": [
+      "peta",
+      "rute",
+      "jalan",
+      "kendaraan",
+      "navigasi"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000107",
+    "bukti_id": "B000113",
+    "url": "https://github.com/organicmaps/organicmaps/issues/14015",
+    "title": "[ios] Long walking path crashes the app",
+    "published_at": "2026-10-27T11:00:21Z",
+    "checked_at": "2026-10-29",
+    "quote": "Hi, I wanted to have a footpath calculated from Berlin to Spain, but after cs. 1/4 of the route the app crashes.",
+    "body_sha256": "0933ae15f51e0536b0b0661a7f56811b20708ab07f5153718ae93d96a56b0d25",
+    "state": "OPEN",
+    "tags": [
+      "peta",
+      "rute",
+      "jalan",
+      "navigasi"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000108",
+    "bukti_id": "B000114",
+    "url": "https://github.com/organicmaps/organicmaps/issues/13985",
+    "title": "Auto download maps does not work",
+    "published_at": "2026-10-24T20:42:23Z",
+    "checked_at": "2026-10-29",
+    "quote": "Maps are not automatically downloaded when navigating to areas without previously downloaded maps.",
+    "body_sha256": "5c9a3b9a9dda05372003cda73ff1438547e351f4b2da44cfbb7be08c8618a9ee",
+    "state": "OPEN",
+    "tags": [
+      "peta",
+      "unduh",
+      "navigasi"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000109",
+    "bukti_id": "B000115",
+    "url": "https://github.com/organicmaps/organicmaps/issues/13997",
+    "title": "[android] Non-xml characters in saved kml break bookmarks loading",
+    "published_at": "2026-10-26T10:12:56Z",
+    "checked_at": "2026-10-29",
+    "quote": "A broken KML file contained NUL (0x0) characters in bookmark names.",
+    "body_sha256": "d1740db793c868c193f6ed5072b6f802baaab3ce32be4870cc532b745fa045c1",
+    "state": "OPEN",
+    "tags": [
+      "peta",
+      "arsip",
+      "berkas",
+      "penyimpanan"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000110",
+    "bukti_id": "B000116",
+    "url": "https://github.com/bitwarden/clients/issues/24156",
+    "title": "Unlock Vault with windows hello/PIN won't work.",
+    "published_at": "2026-10-26T13:21:22Z",
+    "checked_at": "2026-10-29",
+    "quote": "Nothing happens",
+    "body_sha256": "bb48e2cc34d26feb53598e40565574dc4480926d3140aa652003e16c2e8a79c1",
+    "state": "OPEN",
+    "tags": [
+      "sandi",
+      "akses",
+      "autentikasi"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000111",
+    "bukti_id": "B000117",
+    "url": "https://github.com/bitwarden/clients/issues/24092",
+    "title": "Windows desktop app intermittently fails to load vault item details and copy fields to clipboard",
+    "published_at": "2026-10-23T09:39:42Z",
+    "checked_at": "2026-10-29",
+    "quote": "The item details are not displayed, and clicking the copy button does not copy anything to the clipboard.",
+    "body_sha256": "e3264aa391ed69f72c4e4e9ac7461ddcbdf1499af10c1d06fcc88c43d998c9f5",
+    "state": "OPEN",
+    "tags": [
+      "sandi",
+      "salin",
+      "akses"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000112",
+    "bukti_id": "B000118",
+    "url": "https://github.com/bitwarden/clients/issues/24013",
+    "title": "Teams upgrade dialog: wrong seat count and total doesn't match line items ($384 vs $240)",
+    "published_at": "2026-10-21T06:22:35Z",
+    "checked_at": "2026-10-29",
+    "quote": "both Password Manager and Secrets Manager show **2 members**, but the organisation has only 1.",
+    "body_sha256": "527c211e6cc717d3e4bfac8b9536525215c1a7a8ad3f973f38a00c5626cb74a7",
+    "state": "OPEN",
+    "tags": [
+      "tagihan",
+      "biaya",
+      "harga",
+      "langganan",
+      "pembayaran"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000113",
+    "bukti_id": "B000119",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/22848",
+    "title": "Review reminders: \"Only notify me if no reviews have been done today\" ignores reviews in subdecks and filtered decks",
+    "published_at": "2026-10-28T19:39:33Z",
+    "checked_at": "2026-10-29",
+    "quote": "The notification still fires (\"3 cards due\"). A reminder with the same settings on `Japanese::Vocab` itself is correctly suppressed.",
+    "body_sha256": "9e9b0adb2df70bcc86e38ab81cc4405159ef1bc688a21f530d282c3a7f4d4ad4",
+    "state": "OPEN",
+    "tags": [
+      "belajar",
+      "pengingat",
+      "kartu",
+      "notifikasi"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000114",
+    "bukti_id": "B000120",
+    "url": "https://github.com/nvaccess/nvda/issues/21059",
+    "title": "Portuguese becomes unusable with the eSpeak NG in 2026.3",
+    "published_at": "2026-10-26T13:09:42Z",
+    "checked_at": "2026-10-29",
+    "quote": "Words sounds wrong, N and M letters sounds Wrong, everything sounds wrong.",
+    "body_sha256": "48b85ccafa0c2bf8e3732190a93df62812160e4556f1d93bbf26762ed6ed2fb9",
+    "state": "OPEN",
+    "tags": [
+      "suara",
+      "pelafalan",
+      "bahasa",
+      "aksesibilitas"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000115",
+    "bukti_id": "B000121",
+    "url": "https://github.com/nvaccess/nvda/issues/21030",
+    "title": "Windows calculator: loss of speech and braille",
+    "published_at": "2026-10-19T08:31:53Z",
+    "checked_at": "2026-10-29",
+    "quote": "Braille does not update without user actions like \"move to focus\". Speech does not announce result.",
+    "body_sha256": "9d5803bff362cb183ab7f1ae90b81e7c1c812bb80467e60eb82bee715bc28b19",
+    "state": "OPEN",
+    "tags": [
+      "kalkulator",
+      "braille",
+      "suara",
+      "aksesibilitas"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  },
+  {
+    "masalah_id": "M000116",
+    "bukti_id": "B000122",
+    "url": "https://github.com/nvaccess/nvda/issues/21068",
+    "title": "PowerPoint (regression/2027.1): slide titles are no longer announced when reviewing slides in slide view",
+    "published_at": "2026-10-27T06:41:48Z",
+    "checked_at": "2026-10-29",
+    "quote": "NVDA (2027.1 alpha) no longer announces slide title.",
+    "body_sha256": "5ad61354b1a0c30a46d87097291d78a538d8b800fe6ffe036ddb40f155bf3ce7",
+    "state": "OPEN",
+    "tags": [
+      "presentasi",
+      "judul",
+      "suara",
+      "aksesibilitas"
+    ],
+    "validation": "Keberadaan laporan dan kecocokan kutipan diperiksa; klaim belum direproduksi."
+  }
+]

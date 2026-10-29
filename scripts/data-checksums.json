@@ -1,0 +1,19 @@
+{
+  "data/research-keyword-tags.json": "8a71ae98f8186ba9b2e081d0e215fd36c7f031cc4dfe6532eb150c094680dbac",
+  "data/research-enrichment-2026-10-29.json": "fbb666579e10c3ed570a6001638a9e339705a4b14b2472c60b66f2e48f2fd8a0",
+  "data/research-batch-2026-10-29.json": "a018bf4a74c21e862d3652af836cd9ed455635f3372601eb1e1e2ac29aa2134c",
+  "data/manual-database.json": "ad947c0b96ace8158b0316879daee57ee2ea8ac0bdd1042d63030ae37adaf6e3",
+  "data/keyword-words.txt": "05c11c308b583e954832f4481d4c36a03ae9d9a9e67dbd209827503011078e68",
+  "data/keyword-sources.json": "ed86715aebdec8aba9cac422deb37b00ee9bddf9c4f92152de07e7168876428b",
+  "data/keyword-coverage.csv": "4b83224ff81e3d72f4926f474aa9ee6f473cb5bfd56f673f25fcf1708dadeb50",
+  "data/original-upload/progres.csv": "17628fe2854acf0b531e3f9f62037d403db1d36f055c91462dcf29440e5e3fea",
+  "data/original-upload/masalah.csv": "a1d47bd8e87ec788b5cf1819a95e67e02064afaa22e1388a246d1051e0908f8c",
+  "data/original-upload/klasifikasi_idx_ic.csv": "59f2442dce521202aefe6baa9262bc5e176d0dec8b28d755f6341345a6e2f17a",
+  "data/original-upload/bukti.csv": "ce34fe6c3d75bcc4f78e89e429574595bf16f0c2d1d7288ec7df908a66262709",
+  "data/manual-csv/progres.csv": "b9986503db3d262b41a03ded7847544f386bb274ba36d2e95a7f3e1bbb6b4f41",
+  "data/manual-csv/masalah.csv": "8de5b894cac38e5d6456106b80434d85f415ba4cab3215f341bb3ca9c4ba14fd",
+  "data/manual-csv/klasifikasi_idx_ic.csv": "f25e74dcb90b725d9765b5a468d34cb26f06c5b11a1084f3d10c8d93bd1d6e23",
+  "data/manual-csv/bukti.csv": "50ed2701bc3f7a9d080d7a999990e922de752981c246a5ca333e04d3081e6fc7",
+  "data/enrichment/radar_peluang_pengayaan.zip": "bdaed38e4418e56dd3a393244e40e0d20229c03dfaf10d0f6384ec4e0edfe41b",
+  "data/enrichment/laporan_penelitian.md": "84c829cf40cdadf6b87bd7044d498791a4c5786701696a07bd42790fe0b77aa2"
+}
