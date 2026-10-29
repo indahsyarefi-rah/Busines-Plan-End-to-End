@@ -1,3 +1,4 @@
+import { visualReportSections } from "./visual-model.js";
 const __vite__mapDeps = (
   i,
   m = __vite__mapDeps,
@@ -70,6 +71,7 @@ async function j(i, R) {
       ]);
     }
   }
+  const supplemental = visualReportSections(i, P);
   const h = "radar-business-plan-" + i.id.slice(0, 8);
   if (R === "Excel") {
     const n = await f(
@@ -92,6 +94,8 @@ async function j(i, R) {
           d.eachRow((m) => (m.alignment = { wrapText: !0, vertical: "top" })));
       };
     t("Ringkasan", ["Parameter", "Isi"], c);
+    for (const extra of supplemental)
+      t(extra.title, ["Parameter", "Isi"], extra.rows);
     for (const [a, l] of g.entries())
       t(`Bagian ${p[a].number}`, ["Pertanyaan", "Isian"], l.rows);
     (t(
@@ -197,6 +201,8 @@ async function j(i, R) {
     };
     o("Radar Peluang — Business Plan", ["Parameter", "Isi"], c);
     for (const e of g) o(e.title, ["Pertanyaan", "Isian"], e.rows);
+    for (const extra of supplemental)
+      o(extra.title, ["Parameter", "Isi"], extra.rows);
     (o(
       "Asumsi keuangan",
       ["Asumsi", "Nilai"],

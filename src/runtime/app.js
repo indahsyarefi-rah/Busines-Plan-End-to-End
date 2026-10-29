@@ -1,3 +1,4 @@
+import { createVisualPlans } from "./visual-plans.js";
 const __vite__mapDeps = (
   i,
   m = __vite__mapDeps,
@@ -15531,6 +15532,7 @@ const en = (n) =>
     currency: "IDR",
     maximumFractionDigits: 0,
   }).format(n);
+const PlanVisuals = createVisualPlans(ie, o, gf);
 function K1({ plan: n, onChange: i, onBack: r }) {
   function c(D) {
     ((D.risks !== n.risks || D.name !== n.name) &&
@@ -15731,6 +15733,8 @@ function K1({ plan: n, onChange: i, onBack: r }) {
                   ],
                 }),
               f === "canvas" && o.jsx(V1, { plan: n, onChange: c }),
+              ["value", "market"].includes(f) &&
+                o.jsx(PlanVisuals, { plan: n, onChange: c, mode: f }, f),
               T.fields.map((D, X) =>
                 f === "canvas"
                   ? o.jsx(
@@ -15837,6 +15841,11 @@ function K1({ plan: n, onChange: i, onBack: r }) {
                           D,
                         ),
                       ),
+                    }),
+                    o.jsx(PlanVisuals, {
+                      plan: n,
+                      onChange: c,
+                      mode: "finance",
                     }),
                     M
                       ? o.jsxs(o.Fragment, {
