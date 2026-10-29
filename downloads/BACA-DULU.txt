@@ -48,13 +48,50 @@ RADAR PELUANG - PANDUAN WINDOWS
    Bila Node.js belum terdeteksi, tutup terminal lalu jalankan kembali
    setelah instalasi Node selesai. Tidak perlu menjalankan sebagai administrator.
 
-4. COBA RISET MANUAL
-   Pilih Riset baru, isi topik, lalu pilih Mulai riset.
-   Pilih Tambah masalah untuk mencatat temuan.
-   Buka masalah, pilih tab Bukti, lalu tambah kutipan dan tautan sumber.
-   Catat alternatif solusi, ide, dan tindakan validasi sesuai hasil riset Anda.
-   Gunakan Ekspor untuk mengunduh Excel atau PDF.
-   Pilih proyek demo jika ingin mempelajari antarmuka dengan data ilustrasi.
+4. GUNAKAN DATABASE BAWAAN DAN BUAT LAPORAN
+   Paket ini sudah memuat database unggahan: 100 masalah, 106 bukti,
+   130 baris klasifikasi, dan progres 69 industri (64 berisi masalah).
+   File CSV asli dan database pencarian ikut berada di dist/data.
+   Tidak perlu mengimpor file, membuat akun, atau membeli API.
+
+   a. Di halaman Proyek, pilih Cari database lokal atau Riset baru.
+   b. Pastikan Sumber riset = Database lokal bawaan.
+   c. Pilih sektor/industri atau ketik topik sederhana seperti bank atau BBM.
+      Kosongkan topik dan pilih Semua industri untuk melihat seluruh 100 masalah.
+   d. Untuk percobaan pertama, gunakan Kelompok konsumen = Konsumen umum,
+      daerah kosong, dan periode Semua periode.
+   e. Klik Mulai riset. Hasil yang cocok disalin sebagai proyek baru.
+   f. Buka masalah untuk membaca ringkasan, ID asal, dan bukti sumbernya.
+      Ringkasan sumber dari CSV bukan kutipan langsung. Tautan sumber
+      membutuhkan internet; pencarian database tetap bisa tanpa internet.
+   g. Periksa sumber dan isi alternatif, hipotesis peluang, atau catatan validasi
+      yang masih kosong. Rencana validasi awal adalah saran sistem, belum dilakukan.
+   h. Klik Ekspor untuk mengunduh Excel atau PDF. Pilih seluruh proyek atau
+      satu masalah. Laporan menyertakan parameter, batasan, bukti, ID asal,
+      dan rencana validasi. Hasil ini bukan bukti kelayakan atau keuntungan bisnis.
+
+   Filter topik dan kata kunci mencocokkan teks, bukan analisis AI.
+   Kata kunci tambahan dipisahkan koma dan semuanya harus cocok.
+   Daerah dan konsumen mengikuti teks pada catatan. Aplikasi tidak menganggap
+   masalah otomatis berlaku di daerah lain. Bahasa corpus adalah Indonesia.
+   Periode memakai tanggal publikasi, bukan tanggal pemeriksaan. Sumber tanpa
+   tanggal publikasi hanya dipertimbangkan pada Semua periode. Bila satu bukti
+   dalam rentang, masalahnya masuk dan bukti lain tetap ditampilkan untuk konteks.
+   Hasil kosong tidak berarti masalah tidak ada; coba kurangi filter.
+
+   Data unggahan dan klaim klasifikasi/sumber belum diperiksa ulang oleh aplikasi.
+   Target 200 masalah per industri BELUM terpenuhi. Alternatif solusi dan ide
+   penawaran tidak tersedia dari CSV ini; Anda dapat menambahkannya sendiri.
+
+   Pilih Sumber riset = Catatan manual untuk membuat proyek kosong sendiri.
+   Tambahkan masalah, bukti, alternatif, ide, dan validasi sesuai hasil riset.
+   Proyek demo memakai data ilustrasi terpisah.
+
+   PENTING SAAT MEMPERBARUI PAKET:
+   Hentikan server lama dengan Ctrl+C. Ekstrak ZIP baru dan jalankan dari folder
+   baru itu, lalu muat ulang browser. Folder dist dan scripts harus tetap lengkap.
+   Gunakan browser, profil, dan alamat 127.0.0.1:5173 yang sama agar proyek lama
+   tetap terbaca. Database baru tidak menimpa proyek pribadi atau catatan lama.
 
 5. MENGHENTIKAN APLIKASI
    Klik terminal yang MASIH menjalankan Radar Peluang, lalu tekan Ctrl+C.
@@ -100,7 +137,8 @@ PENTING TENTANG DATA
 - Data tersimpan pada penyimpanan browser, bukan di folder ZIP, bukan di akun cloud.
 - Menghapus data situs/browser dapat menghapus semua proyek. Ekspor rutin.
 - Laporan Excel/PDF adalah dokumen keluaran; belum dapat diimpor sebagai pemulihan otomatis.
-- Paket laptop hanya menjalankan riset manual; pencarian otomatis dan analisis AI tidak aktif.
+- Paket laptop mencari database bawaan secara offline dan mendukung catatan manual.
+  Riset web baru dan analisis AI tidak aktif pada paket ini.
 - Setelah Node.js terpasang dan paket diekstrak, aplikasi tidak membutuhkan unduhan
   npm, akun hosting, kartu pembayaran, atau koneksi internet untuk dibuka.
   Internet tetap diperlukan saat Anda ingin membuka tautan sumber di web.
