@@ -226,13 +226,20 @@ VISUAL BUSINESS MODEL CANVAS
 - Isi Nama tim, Nama usaha pada BMC, dan tagline bila diperlukan.
 - Isi sembilan blok. Kotak, judul, dan posisi mengikuti referensi pengguna.
   Contoh RasaPanen tidak dimasukkan. Isi selalu dari input Anda.
-- Baris yang dimulai ## menjadi subjudul hijau, misalnya ## Mitra produksi.
+- Pada setiap kotak, klik Atur tampilan untuk memilih ukuran font isi,
+  subjudul, dan judul kotak. Pilih warna Merah, Biru, Kuning, Hijau, Ungu,
+  atau Pink. Warna diterapkan ke teks dan kotak dengan latar terang.
+- Klik Tambah subjudul pada kotak yang diinginkan. Judul dan isinya bebas
+  disunting. Hapus subjudul mempertahankan teks analisis di bagian sebelumnya.
+  Rencana lama yang menggunakan baris ## tetap dibaca sebagai subjudul.
+- Samakan tampilan semua kotak menyalin font dan warna kotak pilihan ke
+  sembilan kotak, tanpa mengubah isi. Setiap kotak masih bisa diatur lagi.
 - Pratinjau memperbarui isi langsung. Pada layar kecil, geser gambar secara
   horizontal; teks tetap bisa dibaca/sunting pada formulir di bawah.
 - Unduh BMC PDF visual atau Unduh BMC PNG untuk gambar 4124 x 2480 per halaman.
   PDF visual berisi gambar, bukan teks vektor yang dapat dipilih. Laporan
   business plan biasa tetap tersedia untuk ekspor teks dan data.
-- Jika isi terlalu panjang, ukuran huruf diturunkan sampai batas minimum lalu
-  seluruh isi dilanjutkan ke halaman berikutnya. Tidak dipotong diam-diam.
+- Ukuran font pilihan Anda dipertahankan. Jika isi terlalu panjang, seluruh
+  isi dilanjutkan ke halaman berikutnya. Tidak dipotong diam-diam.
   Pilih Halaman pratinjau BMC untuk meninjau lanjutan. PNG menghasilkan satu
   file per halaman; browser bisa meminta izin beberapa unduhan.
