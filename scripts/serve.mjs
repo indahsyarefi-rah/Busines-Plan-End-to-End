@@ -2,6 +2,7 @@ import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
 const root = resolve(process.argv[2] || "dist");
+const base = process.env.BASE_PATH || "/";
 const types = {
   ".html": "text/html",
   ".js": "text/javascript",
@@ -12,10 +13,14 @@ const types = {
 };
 createServer(async (req, res) => {
   try {
-    const path = resolve(
-      root,
-      "." + decodeURIComponent(new URL(req.url, "http://localhost").pathname),
+    const pathname = decodeURIComponent(
+      new URL(req.url, "http://localhost").pathname,
     );
+    if (!pathname.startsWith(base)) {
+      res.writeHead(404).end("Not found");
+      return;
+    }
+    const path = resolve(root, "./" + pathname.slice(base.length));
     if (path !== root && !path.startsWith(root + sep)) {
       res.writeHead(403).end();
       return;

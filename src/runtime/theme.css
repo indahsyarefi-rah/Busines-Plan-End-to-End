@@ -1,0 +1,375 @@
+/* Radar Peluang — pastel workspace. BMC artwork and export palettes stay in app.js. */
+:root {
+  color: #20233b;
+  background: #eeedf8;
+  --accent: #6653c7;
+  --card-shadow: 0 8px 24px #42436e0a, 0 2px 5px #42436e06;
+}
+body {
+  background: #eeedf8;
+}
+.main-wrap {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(
+      ellipse 72% 420px at 46% 170px,
+      #b7ddf780 0%,
+      #c9c2f278 42%,
+      transparent 73%
+    ),
+    radial-gradient(
+      ellipse 56% 380px at 91% 30px,
+      #f6d9eea8 0%,
+      transparent 76%
+    ),
+    linear-gradient(135deg, #e5effa 0%, #efebf7 54%, #f6f7fa 100%);
+}
+/* Soft luminous arc behind the heading, like the reference's pastel horizon. */
+.main-wrap::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  top: 32px;
+  left: 2%;
+  width: 95%;
+  height: 390px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    #b0e5f582,
+    #c9b7f57a 37%,
+    #efcfef66 62%,
+    transparent 74%
+  );
+  box-shadow:
+    0 -14px 28px -18px #ffffffeb,
+    inset 0 13px 28px -18px #fff;
+  mask-image: linear-gradient(#000 0%, #000 30%, transparent 100%);
+}
+.sidebar {
+  background: linear-gradient(160deg, #d2e4f5, #d8e2ef 72%, #d4e0ed);
+  border-right-color: #c8d7e8;
+}
+.brand-symbol {
+  background: linear-gradient(140deg, #59b6ee, #7753d3 70%, #ae7ee3);
+  box-shadow:
+    inset 0 0 0 1px #ffffff60,
+    0 3px 9px #5d66c623;
+}
+.nav-item {
+  color: #3d4a61;
+}
+.nav-item:hover {
+  background: #ffffff55;
+}
+.nav-item.active {
+  color: #4d5788;
+  background: linear-gradient(110deg, #f2f4ff, #fff);
+  box-shadow: 0 5px 14px #65768d14;
+  border: 1px solid #ffffffad;
+  padding: 11px 14px;
+}
+.nav-item.active::before {
+  background: #7765bb;
+}
+.help-box {
+  background: linear-gradient(140deg, #ffffffac, #f4f1fcba);
+  border-color: #ffffffd9;
+  box-shadow: 0 8px 18px #6476970a;
+  border-radius: 12px;
+}
+.help-icon,
+.help-box button {
+  color: #5b78a2;
+}
+.profile {
+  border-color: #cbd7e7;
+}
+.profile > .avatar {
+  color: white;
+  background: conic-gradient(
+    from 20deg,
+    #7357d4,
+    #d77fbd,
+    #ef9f68,
+    #799ae9,
+    #7357d4
+  );
+  border-color: #d8dff4;
+}
+.topbar {
+  background: transparent;
+  border-bottom-color: transparent;
+}
+.primary {
+  background: linear-gradient(110deg, #f97035, #f58c1b);
+  border: 1px solid #f68c41;
+  box-shadow:
+    0 4px 10px #ed742a30,
+    inset 0 1px 0 #ffffff35;
+  border-radius: 8px;
+  color: #fff;
+}
+.primary:hover {
+  filter: brightness(1.035);
+  box-shadow: 0 5px 14px #df71263d;
+}
+.secondary,
+.bordered,
+.view-toggle,
+.search-field {
+  border-color: #d7d7e8;
+  background: #ffffffd9;
+  box-shadow: 0 2px 5px #4b4b7c07;
+  border-radius: 8px;
+}
+.database-banner {
+  align-items: center;
+  border: 1px solid #fffffff0;
+  border-radius: 13px;
+  background:
+    radial-gradient(ellipse 200px 150px at 83% 0%, #8edcf4d9, transparent 74%),
+    radial-gradient(ellipse 190px 150px at 96% 25%, #b28ceceb, transparent 80%),
+    linear-gradient(105deg, #f3f1fcbd, #e6e2fbc9 63%, #c5b7ef);
+  color: #4d5479;
+  box-shadow: var(--card-shadow);
+}
+.database-banner strong,
+.database-banner p {
+  color: #343d59;
+}
+.database-banner > .secondary {
+  background: #ffffff36;
+  border: 1px solid #fff;
+  color: #354762;
+  box-shadow:
+    0 0 0 3px #ffffff15,
+    0 3px 8px #665aa91c;
+}
+.intro-panel {
+  border-radius: 14px;
+  border-color: #ffffffed #d9d0ee #ad9ad3 #ffffffed;
+  background:
+    radial-gradient(ellipse at 79% 55%, #c8b9f440, transparent 46%),
+    linear-gradient(115deg, #ffffffbd, #f5f1fcb8);
+  box-shadow:
+    0 10px 25px #66608013,
+    inset 0 1px 0 #fff;
+}
+.intro-content h2 {
+  color: #202039;
+  font-weight: 550;
+}
+.intro-content > .text-link {
+  padding: 9px 13px;
+  color: #fff;
+  background: linear-gradient(110deg, #7563d7, #4f8de4);
+  border: 1px solid #a79be5;
+  border-radius: 7px;
+  box-shadow: 0 3px 7px #6354c832;
+  font-weight: 500;
+}
+.radar-art {
+  background: radial-gradient(ellipse at center, #c0aaf43b, transparent 68%);
+}
+.radar-art::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #aaa3d52b;
+  border-radius: 50%;
+}
+.radar-ring {
+  border-color: #8e85be99;
+  box-shadow:
+    0 0 9px #9b91d412,
+    inset 0 0 12px #fff3;
+}
+.r3 {
+  border-color: #9b8dc5;
+  background: radial-gradient(circle, #b9b7eb12, #b9b7eb27);
+}
+.radar-cross {
+  background: #a5a4d34d;
+}
+.radar-sweep {
+  background: linear-gradient(35deg, #cac9f14d, #a08aea99 75%, #8c7bcebd);
+  border-right-color: #8877bc;
+}
+.radar-point {
+  background: #9d9cd8;
+  box-shadow:
+    0 0 0 4px #c4c4ed3b,
+    0 0 12px #939ceca6;
+  z-index: 1;
+}
+.radar-art::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 13%;
+  right: 14%;
+  background: #a2a9ee;
+  border-radius: 50%;
+  box-shadow:
+    0 0 7px 3px #b1b9fa70,
+    -275px 106px 0 -1px #aaa7e6,
+    -275px 106px 8px 2px #aaa7e64d,
+    0 205px 0 -1px #a2a9ee,
+    0 205px 8px 3px #b1b9fa70;
+}
+.art-label {
+  background: #ffffff9c;
+  border-color: #d2cfe3;
+  color: #61647d;
+}
+.panel,
+.project-card,
+.empty,
+.evidence-summary {
+  background: #fffffff5;
+  border-color: #dcdbea;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+}
+.evidence-summary {
+  border-color: #c6b6da;
+}
+.detail-heading h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  line-height: 1.22;
+  letter-spacing: -0.7px;
+  color: #1f1d34;
+}
+.context-nav,
+.tabs {
+  border-bottom-color: #d7d3e5;
+}
+.context-nav .current,
+.tabs .active {
+  border-color: #657aa3;
+  color: #344e76;
+}
+.page-footer {
+  border-color: #d6d6e7;
+}
+@media (max-width: 1150px) and (min-width: 761px) {
+  .radar-art::after {
+    box-shadow:
+      0 0 7px 3px #b1b9fa70,
+      -215px 106px 0 -1px #aaa7e6,
+      -215px 106px 8px 2px #aaa7e64d;
+  }
+}
+@media (max-width: 760px) {
+  .main-wrap::before {
+    height: 320px;
+    top: 55px;
+  }
+  .database-banner {
+    align-items: flex-start;
+  }
+  .detail-heading h1 {
+    font-size: 27px;
+  }
+}
+@media print {
+  body,
+  .main-wrap {
+    background: white;
+  }
+  .main-wrap::before {
+    display: none;
+  }
+}
+/* Let long problem titles breathe; source context and actions share one strip. */
+.detail-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px 18px;
+  position: relative;
+  isolation: isolate;
+}
+.detail-heading > div:first-child {
+  display: contents;
+}
+.detail-heading .eyebrow {
+  display: none;
+}
+.detail-heading h1 {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+.detail-heading > div:first-child > p {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 0 0 12px;
+}
+.detail-heading:has(.notice)::before {
+  content: "";
+  grid-row: 3;
+  grid-column: 1 / -1;
+  align-self: stretch;
+  z-index: -1;
+  border: 1px solid #fffffff0;
+  border-radius: 12px;
+  background:
+    radial-gradient(ellipse 230px 120px at 98% 0%, #cab0f7a6, transparent 80%),
+    linear-gradient(110deg, #ece9f8e6, #e0def8db);
+  box-shadow: var(--card-shadow);
+}
+.detail-heading .notice {
+  grid-column: 1;
+  grid-row: 3;
+  align-self: center;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  padding: 15px 18px;
+  min-width: 0;
+}
+.detail-heading .notice p {
+  margin: 0;
+  font-size: 12px;
+  color: #3e4963;
+  line-height: 1.7;
+}
+.detail-heading > .button-row {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+  padding: 12px 15px 12px 0;
+  flex-wrap: wrap;
+}
+.detail-heading .metadata {
+  grid-column: 1 / -1;
+  grid-row: 4;
+  margin-top: 2px;
+}
+@media (max-width: 1150px) {
+  .detail-heading {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .detail-heading .notice {
+    grid-column: 1;
+  }
+  .detail-heading > .button-row {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 0 16px 15px;
+  }
+  .detail-heading:has(.notice)::before {
+    grid-row: 3 / 5;
+  }
+  .detail-heading .metadata {
+    grid-row: 5;
+  }
+}
