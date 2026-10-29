@@ -93,6 +93,35 @@ RADAR PELUANG - PANDUAN WINDOWS
    Gunakan browser, profil, dan alamat 127.0.0.1:5173 yang sama agar proyek lama
    tetap terbaca. Database baru tidak menimpa proyek pribadi atau catatan lama.
 
+4B. BUAT BUSINESS PLAN
+   a. Cari masalah melalui database atau buka proyek riset Anda.
+   b. Buka detail satu masalah, lalu klik Buat Business Plan.
+   c. Background terisi sebagai draf dari salinan masalah dan bukti asal.
+      Suntingan rencana tidak mengubah data riset sumbernya.
+   d. Isi tahap 3 sampai 14 melalui menu tahap. Prototipe opsional.
+      Setiap tahap memiliki analisis, sumber, asumsi, validasi, dan status.
+      Semua isian tersimpan otomatis bersama proyek pada browser ini.
+   e. Pada Financial Projection, isi semua asumsi angka. Angka kosong berarti
+      belum diketahui, bukan nol. Untuk perantara, isi komisi per transaksi,
+      bukan seluruh nilai transaksi. Proyeksi sederhana berjalan 12 bulan.
+      Laba dan kas berbeda; jeda pembayaran memengaruhi arus kas.
+      Kalkulator belum mencakup depresiasi, pinjaman/bunga, persediaan,
+      atau rincian pajak. Skenario volume 70/100/130 persen adalah ilustrasi.
+   f. Catat risiko beserta dampak, tanda peringatan, penanganan, dan penanggung jawab.
+   g. Kerjakan Executive Summary terakhir. Tombol Susun draf ringkasan mengambil
+      petikan isian, bukan analisis AI. Ringkas dan tinjau sendiri sebelum dipakai.
+      Ringkasan berada paling depan pada laporan hasil ekspor.
+   h. Pilih PDF atau Excel, lalu klik Ekspor business plan.
+      Bagian yang kosong tetap ditandai belum tersedia, bukan dibuat-buat.
+
+   Menu Business Plan menampilkan seluruh rencana. Satu masalah dapat memiliki
+   beberapa rencana. Menghapus proyek sumber juga menghapus rencana di dalamnya.
+   Ekspor dahulu sebelum menghapus proyek atau data situs/browser.
+   Bila bagian lain berubah, bagian yang sudah terisi ditandai perlu ditinjau ulang.
+   Pilih status tahap kembali setelah meninjau. Siap ditinjau tidak berarti
+   rencana sudah tervalidasi atau usaha pasti layak/menguntungkan.
+   KBLI dan izin harus diperiksa tersendiri; kode IDX-IC bukan pengganti KBLI.
+
 5. MENGHENTIKAN APLIKASI
    Klik terminal yang MASIH menjalankan Radar Peluang, lalu tekan Ctrl+C.
    Setelah muncul kembali tulisan PS C:\...>, server di terminal itu
