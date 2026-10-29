@@ -176,3 +176,20 @@ PENTING TENTANG DATA
 
 Paket ini dibuat dari build aplikasi di workspace. Launcher .cmd disiapkan
 untuk Windows; pengujian Windows langsung belum tersedia di lingkungan Linux ini.
+
+INDEKS KATA DAN SUMBER
+- Paket menyertakan 14.556 kata dari tautan legacy yang diberikan pengguna.
+  Daftar kata adalah alat pencarian, bukan bukti adanya masalah bisnis.
+- BBM dikenali sebagai bahan bakar minyak. Digital dipetakan ke catatan
+  aplikasi, perangkat lunak, layanan daring, dan konektivitas yang terkait.
+- Database masih 100 masalah dan 106 bukti, belum dua masalah untuk setiap kata.
+- File dist/data/keyword-coverage.csv berisi cakupan setiap kata, ID masalah,
+  tautan sumber, metode pemetaan, serta kekurangan terhadap target dua.
+- keyword-words.txt menyimpan daftar asli; keyword-sources.json menyimpan
+  URL sumber, checksum, dan batasan. README repositori sumber menyebut
+  daftar legacy memiliki penyesuaian manual, bukan salinan resmi yang diverifikasi.
+- Pemetaan kata tidak memvalidasi klaim sumber. Bukti tetap mengikuti CSV
+  unggahan; pemeriksaan halaman asli dan penambahan data masih diperlukan.
+- Filter industri, daerah, konsumen, periode, dan pengecualian tetap berlaku.
+  Untuk mencoba digital/BBM: Semua industri, daerah kosong, Konsumen umum,
+  Semua periode. Muat ulang browser setelah memperbarui paket.
