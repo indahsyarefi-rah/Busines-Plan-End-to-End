@@ -22052,28 +22052,21 @@ function Ex({ cloud: n }) {
       o.jsxs("aside", {
         className: `sidebar ${L ? "is-open" : ""}`,
         children: [
-          o.jsxs("a", {
+          o.jsx("a", {
             href: "#",
             className: "brand",
+            "aria-label": "VENTU — End-to-End Business Plan, buka proyek",
             onClick: (_) => {
               (_.preventDefault(), De("projects"));
             },
-            children: [
-              o.jsx("span", {
-                className: "brand-symbol",
-                children: o.jsx(Bg, { size: 25 }),
-              }),
-              o.jsxs("span", {
-                children: [
-                  "radar",
-                  o.jsx("span", {
-                    className: "brand-light",
-                    children: "peluang",
-                  }),
-                  o.jsx("small", { children: "RUANG KERJA RISET" }),
-                ],
-              }),
-            ],
+            children: o.jsx("img", {
+              className: "brand-logo",
+              src: "./brand/ventu-logo-aef73d312f26.png",
+              alt: "VENTU — End-to-End Business Plan",
+              width: 1678,
+              height: 937,
+              decoding: "async",
+            }),
           }),
           o.jsxs("div", {
             className: "workspace-label",
@@ -24579,7 +24572,7 @@ function Ex({ cloud: n }) {
                 className: "page-footer",
                 children: [
                   o.jsxs("span", {
-                    children: [o.jsx(Bg, { size: 14 }), "Radar Peluang"],
+                    children: "VENTU · End-to-End Business Plan",
                   }),
                   o.jsx("span", {
                     children: "Bukti terlebih dahulu. Keputusan lebih terarah.",

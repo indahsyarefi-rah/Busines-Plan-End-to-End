@@ -51,12 +51,42 @@ body {
 .sidebar {
   background: linear-gradient(160deg, #d2e4f5, #d8e2ef 72%, #d4e0ed);
   border-right-color: #c8d7e8;
+  overflow-y: auto;
 }
-.brand-symbol {
-  background: linear-gradient(140deg, #59b6ee, #7753d3 70%, #ae7ee3);
+.brand {
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 1.55;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #7384c747;
+  border-radius: 13px;
+  background:
+    radial-gradient(ellipse at 48% 27%, #26316b66, transparent 65%),
+    linear-gradient(145deg, #08132e, #04091d 85%);
   box-shadow:
-    inset 0 0 0 1px #ffffff60,
-    0 3px 9px #5d66c623;
+    inset 0 1px 0 #ffffff12,
+    0 6px 16px #26346c1a;
+}
+.brand-logo {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 125%;
+  height: auto;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+.workspace-label {
+  margin-top: 26px;
+  flex-shrink: 0;
+}
+.sidebar > nav,
+.sidebar-bottom {
+  flex-shrink: 0;
 }
 .nav-item {
   color: #3d4a61;
